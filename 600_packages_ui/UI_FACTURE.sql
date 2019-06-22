@@ -1,0 +1,4 @@
+CREATE OR REPLACE PACKAGE UI_FACTURE AS
+    procedure mesfactures;
+END UI_FACTURE;
+/

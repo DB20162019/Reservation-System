@@ -1,0 +1,6 @@
+BEGIN
+ DBMS_EPG.create_dad (
+	dad_name => 'G02_TENNIS_epg_dad',
+	path => '/G02_TENNIS_rep_dad/*');
+END;
+	
